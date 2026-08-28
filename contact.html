@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ช่องทางการติดต่อ | Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อ - Portfolio ม.3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="nav-logo">My<span>Portfolio</span></div>
-    <ul class="nav-links">
-      <li><a href="index.html">หน้าแรก</a></li>
-      <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-      <li><a href="education.html">การศึกษา</a></li>
-      <li><a href="hobby.html">งานอดิเรก</a></li>
-      <li><a href="contact.html" class="active">ติดต่อ</a></li>
-    </ul>
-  </nav>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">PORTFOLIO<span>.M3</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html" class="active">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <main class="container">
-    <h2 class="section-title">ช่องทางการติดต่อ</h2>
-    <p class="section-subtitle">Get In Touch With Me</p>
+    <main class="page-main">
+        <div class="container">
+            <div class="page-header">
+                <h2>ช่องทางการติดต่อ</h2>
+                <p>สามารถแลกเปลี่ยนความคิดเห็นหรือติดต่อสอบถามข้อมูลได้ทางช่องทางด้านล่าง</p>
+            </div>
 
-    <div class="contact-grid">
-      <div class="card contact-card">
-        <div class="contact-icon">✉️</div>
-        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">อีเมล</h3>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">student@email.com</p>
-      </div>
+            <div class="contact-wrapper">
+                <div class="contact-box">
+                    <div class="contact-icon">📧</div>
+                    <h3>อีเมล</h3>
+                    <p>student@example.com</p>
+                    <a href="mailto:student@example.com" class="btn btn-primary btn-sm">ส่งอีเมลหาฉัน</a>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">🏫</div>
+                    <h3>สถานศึกษา</h3>
+                    <p>โรงเรียน จอมทอง <br>จังหวัดเชียงใหม่</p>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">🌐</div>
+                    <h3>โซเชียลมีเดีย</h3>
+                    <p>Instagram natwln.zx11</p>
+                    <span class="social-tag">@student_m3</span>
+                </div>
+            </div>
+        </div>
+    </main>
 
-      <div class="card contact-card">
-        <div class="contact-icon">🌐</div>
-        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">เว็บไซต์</h3>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">my-portfolio.github.io</p>
-      </div>
-
-      <div class="card contact-card">
-        <div class="contact-icon">📱</div>
-        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">โซเชียลมีเดีย</h3>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">  IG: natwln.zx11</p>
-      </div>
-    </div>
-
-    <div class="card" style="margin-top: 3rem; text-align: center; padding: 3rem 1.5rem;">
-      <h3 style="color: var(--primary-dark); margin-bottom: 1rem;">สามารถติดต่อฉันได้ที่</h3>
-      <p style="color: var(--text-muted); margin-bottom: 2rem;">หากมีข้อสงสัยหรือต้องการสอบถามข้อมูลเพิ่มเติมเกี่ยวกับโครงงานนี้</p>
-      <a href="mailto:student@email.com" class="btn btn-primary">ส่งอีเมลหาฉัน</a>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-content">
-      <div>
-        <div class="footer-logo">[ปริญญ์]'s Portfolio</div>
-        <p style="font-size: 0.9rem; color: var(--accent);">โครงงานวิชาคอมพิวเตอร์ ชั้นมัธยมศึกษาปีที่ 3</p>
-      </div>
-      <ul class="footer-links">
-        <li><a href="index.html">หน้าแรก</a></li>
-        <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-        <li><a href="education.html">การศึกษา</a></li>
-        <li><a href="hobby.html">งานอดิเรก</a></li>
-        <li><a href="contact.html">ติดต่อ</a></li>
-      </ul>
-    </div>
-    <div class="footer-copy">
-      &copy; 2026 ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์. All Rights Reserved.
-    </div>
-  </footer>
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>PORTFOLIO<span>.M3</span></h3>
+                <p>โครงงานวิชาคอมพิวเตอร์ ระดับชั้นมัธยมศึกษาปีที่ 3</p>
+                <p>จัดทำโดย ด.ญ.ณัฐวลัญช์ เหมือรสุทธฺวงษ์ ชั้น ม.3/2</p>
+            </div>
+            <div class="footer-links">
+                <h4>ลิงก์ด่วน</h4>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Student Portfolio Project. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
