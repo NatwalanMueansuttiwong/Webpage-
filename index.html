@@ -1,58 +1,89 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>หน้าแรก | Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก | My Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="nav-logo">My<span>Portfolio</span></div>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">หน้าแรก</a></li>
-      <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-      <li><a href="education.html">การศึกษา</a></li>
-      <li><a href="hobby.html">งานอดิเรก</a></li>
-      <li><a href="contact.html">ติดต่อ</a></li>
-    </ul>
-  </nav>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">PORTFOLIO<span>.M3</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <header class="hero">
-    <div class="hero-text">
-      <span class="hero-badge">👋 ยินดีต้อนรับสู่เว็บไซต์ของฉัน</span>
-      <h1 class="hero-title">สวัสดีครับ! ผมชื่อ <br><span>[ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์]</span></h1>
-      <p class="hero-desc">นักเรียนชั้นมัธยมศึกษาปีที่ 3/[2] โรงเรียน[จอมทอง] มีความสนใจในด้านเทคโนโลยีและการเรียนรู้สิ่งใหม่ๆ</p>
-      <div class="btn-group">
-        <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
-        <a href="hobby.html" class="btn btn-secondary">ดูงานอดิเรกของฉัน</a>
-      </div>
-    </div>
-    <div class="hero-img-wrapper">
-      <div class="hero-img-bg"></div>
-      <img src="https://placehold.co/400x400/1976D2/FFFFFF?text=Profile+Image" alt="รูปโปรไฟล์ของฉัน" class="hero-img">
-    </div>
-  </header>
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">ยินดีต้อนรับสู่พอร์ตโฟลิโอ</span>
+                    <h1>สวัสดีครับ/ค่ะ! <br>ฉันชื่อ <span class="highlight">[กรอกชื่อ-นามสกุล]</span></h1>
+                    <p class="hero-subtitle">นักเรียนชั้นมัธยมศึกษาปีที่ 3/[กรอกห้อง] โรงเรียน[กรอกชื่อโรงเรียน] มีความสนใจด้าน [กรอกความสนใจ] และการเรียนรู้เทคโนโลยีใหม่ๆ</p>
+                    <div class="hero-cta">
+                        <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
+                        <a href="hobby.html" class="btn btn-outline">ดูงานอดิเรกของฉัน</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="blob-bg"></div>
+                    <img src="https://placehold.co/400x400/1976D2/FFFFFF?text=Profile+Image" alt="รูปโปรไฟล์ของฉัน" class="hero-img">
+                </div>
+            </div>
+        </section>
 
-  <footer class="footer">
-    <div class="footer-content">
-      <div>
-        <div class="footer-logo">[ปริญญ์]'s Portfolio</div>
-        <p style="font-size: 0.9rem; color: var(--accent);">โครงงานวิชาคอมพิวเตอร์ ชั้นมัธยมศึกษาปีที่ 3</p>
-      </div>
-      <ul class="footer-links">
-        <li><a href="index.html">หน้าแรก</a></li>
-        <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-        <li><a href="education.html">การศึกษา</a></li>
-        <li><a href="hobby.html">งานอดิเรก</a></li>
-        <li><a href="contact.html">ติดต่อ</a></li>
-      </ul>
-    </div>
-    <div class="footer-copy">
-      &copy; 2026 [ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์]. All Rights Reserved.
-    </div>
-  </footer>
+        <section class="quick-stats">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <h3>ระดับชั้น</h3>
+                    <p>มัธยมศึกษาปีที่ 3</p>
+                </div>
+                <div class="stat-card">
+                    <h3>วิชาที่ชอบ</h3>
+                    <p>[กรอกวิชาที่ชอบ]</p>
+                </div>
+                <div class="stat-card">
+                    <h3>เป้าหมาย</h3>
+                    <p>[กรอกเป้าหมาย/ความสนใจ]</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>PORTFOLIO<span>.M3</span></h3>
+                <p>เว็บไซต์แนะนำตัวเอง โครงงานวิชาคอมพิวเตอร์ ชั้น ม.3</p>
+            </div>
+            <div class="footer-nav">
+                <h4>เมนู</h4>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 [กรอกชื่อ-นามสกุล]. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
