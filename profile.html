@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ประวัติส่วนตัว | Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว - Portfolio ม.3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="nav-logo">My<span>Portfolio</span></div>
-    <ul class="nav-links">
-      <li><a href="index.html">หน้าแรก</a></li>
-      <li><a href="profile.html" class="active">ประวัติส่วนตัว</a></li>
-      <li><a href="education.html">การศึกษา</a></li>
-      <li><a href="hobby.html">งานอดิเรก</a></li>
-      <li><a href="contact.html">ติดต่อ</a></li>
-    </ul>
-  </nav>
-
-  <main class="container">
-    <h2 class="section-title">ประวัติส่วนตัว</h2>
-    <p class="section-subtitle">Personal Profile & About Me</p>
-
-    <div class="profile-grid">
-      <div class="card profile-card">
-        <img src="images/images.jpg" alt="รูปโปรไฟล์ของฉัน" class="profile-avatar">
-        <h3 style="color: var(--primary-dark);">ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์</h3>
-        <p style="color: var(--text-muted);">ชื่อเล่น: ปริญญ์</p>
-      </div>
-
-      <div class="card">
-        <h3 style="color: var(--primary); margin-bottom: 1.5rem;">ข้อมูลพื้นฐาน</h3>
-        <div class="info-grid">
-          <div class="info-item">
-            <div class="info-label">อายุ</div>
-            <div class="info-value">14 ปี</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">วันเกิด</div>
-            <div class="info-value">29/8/2554</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">ระดับชั้น</div>
-            <div class="info-value">ม.3/2</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">จังหวัด</div>
-            <div class="info-value">เชียงใหม่</div>
-          </div>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">PORTFOLIO<span>.M3</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html" class="active">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </div>
+    </header>
 
-    <div class="card">
-      <h3 style="color: var(--primary-dark); margin-bottom: 1rem;">เกี่ยวกับฉัน</h3>
-      <p style="color: var(--text-muted); line-height: 1.8;">
-        สวัสดีครับ ฉันกำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 3 โรงเรียนจอมทอง 
-        ฉันเป็นคนที่ชอบเรียนรู้สิ่งใหม่ๆ โดยเฉพาะในด้านเทคโนโลยีและการออกแบบ การสร้างเว็บไซต์นี้เป็นส่วนหนึ่งของโครงงานวิชาคอมพิวเตอร์ 
-        เพื่อฝึกฝนทักษะการเขียนโค้ดภาษา HTML และ CSS ในอนาคตผมมีความตั้งใจที่จะพัฒนาทักษะด้านดิจิทัลเพิ่มเติมค่ะ
-      </p>
-    </div>
-  </main>
+    <main class="page-main">
+        <div class="container">
+            <div class="page-header">
+                <h2>ประวัติส่วนตัว</h2>
+                <p>ข้อมูลเกี่ยวกับตัวฉัน ความสนใจ และตัวตนของฉัน</p>
+            </div>
 
-  <footer class="footer">
-    <div class="footer-content">
-      <div>
-        <div class="footer-logo">ปริญญ์'s Portfolio</div>
-        <p style="font-size: 0.9rem; color: var(--accent);">โครงงานวิชาคอมพิวเตอร์ ชั้นมัธยมศึกษาปีที่ 3</p>
-      </div>
-      <ul class="footer-links">
-        <li><a href="index.html">หน้าแรก</a></li>
-        <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-        <li><a href="education.html">การศึกษา</a></li>
-        <li><a href="hobby.html">งานอดิเรก</a></li>
-        <li><a href="contact.html">ติดต่อ</a></li>
-      </ul>
-    </div>
-    <div class="footer-copy">
-      &copy; 2026 ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์. All Rights Reserved.
-    </div>
-  </footer>
+            <div class="profile-grid">
+                <div class="profile-card-left">
+                    <img src="https://placehold.co/300x300/1976D2/FFFFFF?text=Profile+Image" alt="รูปโปรไฟล์ของฉัน" class="profile-avatar">
+                    <h3>ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์</h3>
+                    <p class="profile-tag">ชื่อเล่น: ปริญญ์</p>
+                </div>
+                <div class="profile-card-right">
+                    <h3>ข้อมูลพื้นฐาน</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">อายุ</span>
+                            <span class="info-val">14 ปี</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">วันเกิด</span>
+                            <span class="info-val">29/08/2011</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">จังหวัด</span>
+                            <span class="info-val">เชียงใหม่</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">ศึกษาอยู่ที่</span>
+                            <span class="info-val">ม.3/2 โรงเรียนจอมทอง</span>
+                        </div>
+                    </div>
+
+                    <div class="about-me-box">
+                        <h3>เกี่ยวกับฉัน</h3>
+                        <p>สวัสดีครับ/ค่ะ ฉันเป็นนักเรียนชั้น ม.3 ที่มีความตั้งใจในการศึกษาและค้นหาความรู้ใหม่ๆ อยู่เสมอ นอกเหนือจากการเรียนในห้องเรียน ฉันชอบทำกิจกรรมและเรียนรู้ทักษะคอมพิวเตอร์เพื่อพัฒนาศักยภาพของตนเองอย่างต่อเนื่อง</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>PORTFOLIO<span>.M3</span></h3>
+                <p>โครงงานวิชาคอมพิวเตอร์ ระดับชั้นมัธยมศึกษาปีที่ 3</p>
+                <p>จัดทำโดย ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์ ชั้น ม.3/2</p>
+            </div>
+            <div class="footer-links">
+                <h4>ลิงก์ด่วน</h4>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Student Portfolio Project. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
