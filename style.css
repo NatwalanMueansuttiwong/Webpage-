@@ -34,12 +34,14 @@ body {
 
 /* --- Image Background for Index Page --- */
 /* --- Image Background for Index Page --- */
+/* --- Image Background for Index Page --- */
 body.index-page {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.65), rgba(13, 27, 42, 0.65)), url('bg.webp');
+    background-image: linear-gradient(rgba(13, 27, 42, 0.65), rgba(13, 27, 42, 0.65)), url('images/bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 }
 }
 
