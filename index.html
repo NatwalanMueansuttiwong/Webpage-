@@ -3,88 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก | Student Portfolio</title>
+    <title>หน้าแรก | ปริญญ์ Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">PORTFOLIO<span>.M3</span></a>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">หน้าแรก</a></li>
-                <li><a href="profile.html" class="nav-link">ประวัติส่วนตัว</a></li>
-                <li><a href="education.html" class="nav-link">การศึกษา</a></li>
-                <li><a href="hobby.html" class="nav-link">งานอดิเรก</a></li>
-                <li><a href="contact.html" class="nav-link">ติดต่อ</a></li>
+    <header>
+        <nav class="navbar">
+            <div class="logo">PARIN.<span>PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main class="container">
-        <section class="hero-section">
+    <main>
+        <section class="hero-container">
             <div class="hero-text">
-                <span class="badge">ยินดีต้อนรับสู่พอร์ตโฟลิโอของฉัน</span>
-                <h1 class="hero-title">สวัสดีครับ! ผมชื่อ <br><span class="gradient-text">น.ส.ณัฐวลัญช์ เหมือนสุทธิวงษ์</span></h1>
-                <p class="hero-description">
-                    นักเรียนชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนจอมทอง <br>
-                    มีความสนใจในด้านเทคโนโลยี การเขียนโปรแกรม และการออกแบบเว็บไซต์
-                </p>
+                <span class="badge">Student Portfolio</span>
+                <h1>สวัสดี! ฉันชื่อ <span class="highlight-rainbow">ปริญญ์</span></h1>
+                <h2>น.ส.ณัฐวลัญช์ เหมือนสุทธิวงษ์</h2>
+                <p>นักเรียนชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนจอมทอง ผู้มีความสนใจในการเรียนรู้ภาษาจีนและหลงใหลในโลกของเทคโนโลยี</p>
                 <div class="hero-buttons">
                     <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
-                    <a href="hobby.html" class="btn btn-secondary">ดูงานอดิเรกของฉัน</a>
+                    <a href="hobby.html" class="btn btn-outline">ดูงานอดิเรกของฉัน</a>
                 </div>
             </div>
             <div class="hero-image-wrapper">
-                <div class="blob-bg"></div>
-                <img src="https://placehold.co/400x400/1976d2/ffffff?text=Profile+Image" alt="รูปโปรไฟล์ของฉัน" class="hero-img">
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">ไฮไลท์เกี่ยวกับฉัน</h2>
-            <div class="grid-3">
-                <div class="card card-hover">
-                    <div class="card-icon">🎯</div>
-                    <h3>เป้าหมาย</h3>
-                    <p>มุ่งมั่นพัฒนาทักษะด้านคอมพิวเตอร์และการออกแบบ เพื่อต่อยอดในระดับมัธยมปลาย</p>
-                </div>
-                <div class="card card-hover">
-                    <div class="card-icon">💡</div>
-                    <h3>ความสนใจ</h3>
-                    <p>ชอบศึกษาเทคโนโลยีใหม่ๆ การสร้างเว็บไซต์ และการแก้ปัญหาผ่านการเขียนโค้ด</p>
-                </div>
-                <div class="card card-hover">
-                    <div class="card-icon">🚀</div>
-                    <h3>ผลงาน</h3>
-                    <p>โครงงานพัฒนาเว็บไซต์ Portfolio ด้วย HTML5 และ CSS3 สำหรับวิชาคอมพิวเตอร์</p>
+                <div class="profile-frame">
+                    <img src="https://placehold.co/400x400/1976D2/FFFFFF/png?text=Parin+Profile" alt="รูปโปรไฟล์ของ น.ส.ณัฐวลัญช์" class="profile-img">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-container">
+    <footer>
+        <div class="footer-content">
             <div class="footer-info">
-                <h3>PORTFOLIO<span>.M3</span></h3>
-                <p>เว็บไซต์แนะนำตัวเองสำหรับโครงงานวิชาคอมพิวเตอร์ ชั้น ม.3</p>
+                <h3>PARIN.PORTFOLIO</h3>
+                <p>น.ส.ณัฐซลัญช์ เหมือนสุทธิวงษ์ (ปริญญ์) | ชั้น ม.3/2 โรงเรียนจอมทอง</p>
             </div>
-            <div class="footer-links">
-                <h4>ลิงก์ด่วน</h4>
-                <ul>
-                    <li><a href="index.html">หน้าแรก</a></li>
-                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-                    <li><a href="education.html">การศึกษา</a></li>
-                    <li><a href="hobby.html">งานอดิเรก</a></li>
-                    <li><a href="contact.html">ติดต่อ</a></li>
-                </ul>
-            </div>
+            <ul class="footer-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 น.ส.ณัฐวลัญช์ เหมือนสุทธฺวงษ์. All Rights Reserved.</p>
+        <div class="copyright">
+            &copy; 2026 Parin Portfolio. All Rights Reserved.
         </div>
     </footer>
-
 </body>
 </html>
