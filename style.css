@@ -587,3 +587,11 @@ footer {
         height: 250px;
     }
 }
+/* --- Image Background for Profile Page --- */
+body.profile-page {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.75), rgba(13, 27, 42, 0.75)), url('images/bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
