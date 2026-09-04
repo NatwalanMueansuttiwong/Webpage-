@@ -3,75 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก - Portfolio ม.3</title>
+    <title>หน้าแรก | Student Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="navbar">
+    <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo">PORTFOLIO<span>.M3</span></a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">หน้าแรก</a></li>
-                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-                    <li><a href="education.html">การศึกษา</a></li>
-                    <li><a href="hobby.html">งานอดิเรก</a></li>
-                    <li><a href="contact.html">ติดต่อ</a></li>
-                </ul>
-            </nav>
+            <a href="index.html" class="nav-logo">PORTFOLIO<span>.M3</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">หน้าแรก</a></li>
+                <li><a href="profile.html" class="nav-link">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html" class="nav-link">การศึกษา</a></li>
+                <li><a href="hobby.html" class="nav-link">งานอดิเรก</a></li>
+                <li><a href="contact.html" class="nav-link">ติดต่อ</a></li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
-    <main>
+    <main class="container">
         <section class="hero-section">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <span class="badge">ยินดีต้อนรับสู่เว็บไซต์ของฉัน</span>
-                    <h1>สวัสดีค่ะ! <br><span class="highlight-text">ด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์</span></h1>
-                    <p class="hero-subtitle">นักเรียนชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนจอมทอง มีความสนใจในด้านเทคโนโลยี งานสร้างสรรค์ และการเรียนรู้สิ่งใหม่ๆ</p>
-                    <div class="hero-buttons">
-                        <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
-                        <a href="hobby.html" class="btn btn-outline">ดูงานอดิเรกของฉัน</a>
-                    </div>
+            <div class="hero-text">
+                <span class="badge">ยินดีต้อนรับสู่พอร์ตโฟลิโอของฉัน</span>
+                <h1 class="hero-title">สวัสดีครับ! ผมชื่อ <br><span class="gradient-text">น.ส.ณัฐวลัญช์ เหมือนสุทธิวงษ์</span></h1>
+                <p class="hero-description">
+                    นักเรียนชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนจอมทอง <br>
+                    มีความสนใจในด้านเทคโนโลยี การเขียนโปรแกรม และการออกแบบเว็บไซต์
+                </p>
+                <div class="hero-buttons">
+                    <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
+                    <a href="hobby.html" class="btn btn-secondary">ดูงานอดิเรกของฉัน</a>
                 </div>
-                <div class="hero-image-wrapper">
-                    <div class="blob-bg"></div>
-                    <img src="https://placehold.co/400x400/1976D2/FFFFFF?text=My+Profile" alt="รูปโปรไฟล์ของฉัน" class="hero-img">
-                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="blob-bg"></div>
+                <img src="https://placehold.co/400x400/1976d2/ffffff?text=Profile+Image" alt="รูปโปรไฟล์ของฉัน" class="hero-img">
             </div>
         </section>
 
-        <section class="quick-highlights">
-            <div class="container">
-                <div class="grid-3">
-                    <div class="feature-card">
-                        <div class="card-icon">🎓</div>
-                        <h3>การศึกษา</h3>
-                        <p>กำลังศึกษาชั้น ม.3 โรงเรียนจอมทอง</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="card-icon">💡</div>
-                        <h3>วิชาที่ชอบ</h3>
-                        <p>ภาษาจีนและการแก้ปัญหาอย่างเป็นระบบ</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="card-icon">🚀</div>
-                        <h3>เป้าหมาย</h3>
-                        <p>พัฒนาทักษะตนเองเพื่อเตรียมพร้อมสู่ระดับมัธยมปลาย</p>
-                    </div>
+        <section class="section">
+            <h2 class="section-title">ไฮไลท์เกี่ยวกับฉัน</h2>
+            <div class="grid-3">
+                <div class="card card-hover">
+                    <div class="card-icon">🎯</div>
+                    <h3>เป้าหมาย</h3>
+                    <p>มุ่งมั่นพัฒนาทักษะด้านคอมพิวเตอร์และการออกแบบ เพื่อต่อยอดในระดับมัธยมปลาย</p>
+                </div>
+                <div class="card card-hover">
+                    <div class="card-icon">💡</div>
+                    <h3>ความสนใจ</h3>
+                    <p>ชอบศึกษาเทคโนโลยีใหม่ๆ การสร้างเว็บไซต์ และการแก้ปัญหาผ่านการเขียนโค้ด</p>
+                </div>
+                <div class="card card-hover">
+                    <div class="card-icon">🚀</div>
+                    <h3>ผลงาน</h3>
+                    <p>โครงงานพัฒนาเว็บไซต์ Portfolio ด้วย HTML5 และ CSS3 สำหรับวิชาคอมพิวเตอร์</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="container footer-container">
+    <footer class="footer">
+        <div class="footer-container">
             <div class="footer-info">
                 <h3>PORTFOLIO<span>.M3</span></h3>
-                <p>โครงงานวิชาคอมพิวเตอร์ ระดับชั้นมัธยมศึกษาปีที่ 3</p>
-                <p>จัดทำโดยด.ญ.ณัฐวลัญช์ เหมือนสุทธิวงษ์ชั้น ม.3/2</p>
+                <p>เว็บไซต์แนะนำตัวเองสำหรับโครงงานวิชาคอมพิวเตอร์ ชั้น ม.3</p>
             </div>
             <div class="footer-links">
                 <h4>ลิงก์ด่วน</h4>
@@ -85,7 +82,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Student Portfolio Project. All Rights Reserved.</p>
+            <p>&copy; 2026 น.ส.ณัฐวลัญช์ เหมือนสุทธฺวงษ์. All Rights Reserved.</p>
         </div>
     </footer>
 
